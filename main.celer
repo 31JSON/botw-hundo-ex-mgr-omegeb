@@ -169,7 +169,7 @@ _project:
   description: Hundo EX Movement Glitch Restricted with OmeGEB
   name: Hundo EX MGR OmeGEB
   url: ""
-  version: 1.0.0
+  version: 1.1.1
 
 _route:
   - (==) The Glitch
@@ -1635,9 +1635,9 @@ _route:
         icon: map-marker-icon
         coord: [-3263,-2818.3125]
     - _Korok::H27
-    - _Shrine::ShadaNaw:
-        comment: シャダ・アダの祠
-        notes: .link([Video]https://youtu.be/vFv2lw0cDeI)
+    - Activate Shada Naw:
+        icon: activated-shrine
+        coord: [-2996.76, 660.18, -3222.51]
     - _Boss::Talus::Frost:
         comment: ガチロック
         coord: [-3073.3125,-2918.4375]
@@ -3826,6 +3826,9 @@ _route:
         comment: ノイエ・ロジーの祠
         notes: .link([Video]https://youtu.be/Nku-z7IPV4A)
     - _Warp::Shrine::ShadaNaw
+    - _Shrine::ShadaNaw:
+        comment: シャダ・アダの祠
+        notes: .link([Video]https://youtu.be/vFv2lw0cDeI)
     - _Discover<Selmie's Spot>:
         coord: [-2952.125,-3141.8125]
     - _Tod::Night:
